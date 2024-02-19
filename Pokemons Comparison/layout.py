@@ -6,9 +6,16 @@ from visualizations import plot_grouped_bar_chart, plot_scatter_line_chart
 
 
 def build_sidebar():
+    
     poke_name = st.sidebar.selectbox('Select Pokemon 1', all_pokemon, index=100)
     poke_name_2 = st.sidebar.selectbox('Select Pokemon 2', all_pokemon, index=200)
-    return (poke_name, poke_name_2)
+
+    submit = st.sidebar.button("Compare", type="primary")
+    # reset_button = st.sidebar.button("Reset", type="primary")
+    if submit:
+        return (poke_name, poke_name_2)
+    else:
+        return (None, None)
     
 
 def comaparsion_columns(pokemon_data, pokemon_data_2, colours):
