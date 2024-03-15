@@ -1,5 +1,5 @@
 # Auto-Select LLM chat using ollama
-* Automatically selects the appropriate Language Model based on user query.
+* Automatically selects the appropriate/best open-source LLM based on user query.
 * Allows the user to see his query's category and the relevant model along with its details.
 * Setting for adjusting creativity parameter of the responses.
 
