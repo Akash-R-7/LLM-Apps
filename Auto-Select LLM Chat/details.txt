@@ -1,0 +1,29 @@
+different aspects:
+
+
+1) Maths (GSM8): https://ollama.com/library/wizard-math
+    https://arxiv.org/pdf/2308.09583.pdf
+    Additional Prompt:
+    """Let’s think step by step."""
+
+2) Coding (DS-1000, MBPP): https://ollama.com/library/deepseek-coder
+    https://arxiv.org/pdf/2401.14196.pdf
+    Additional Prompt:
+    """You need first to write a step-by-step outline and then write the code."""
+
+3) STEM (MMLU) : Mistral/Gemma
+    https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf
+
+4) Humanities
+5) Writing (Give option to select creativity): https://huggingface.co/senseable/WestLake-7B-v2 or mistral
+
+6) Reasoning (PIQA, ARC): phi-2
+    https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/
+
+7) General Chat (Tuthful QA, Trivia QA): Mistral v2 + truthx/ Mistral v2
+    https://huggingface.co/ICTNLP/TruthX/tree/main/Mistral-7B-Instruct-v0.2
+    https://arxiv.org/pdf/2402.17811.pdf
+
+
+
+## Set params of models as per category of question
