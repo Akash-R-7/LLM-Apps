@@ -21,6 +21,12 @@ def models_and_details():
                                 ['Reinforced Evol-Instruct (RLEIF)', 'GSM8k'],
                                 ['Code-completition', 'Code-generation', 'Fill-in-the-Middle'],
                                 ['CSAM and Sensitive Data Filtering', 'Multi-Query Attention', 'RoPE Embeddings' ]],
+                        "Tips": ["Be clear in what you want and what you don't",
+                                 "Works well when you assign a role to assistant",
+                                 "Few demos before problem may give better results",
+                                 "Breakdown a complex problem for improved answers",
+                                 "Ask for a step-by-step outline, before coding",
+                                 "Use feedbacks to get better answers"]
                         }
         model_details_df = pd.DataFrame(model_details)
 
