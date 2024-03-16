@@ -1,5 +1,5 @@
 # Auto-Select LLM chat using ollama
-* Automatically selects the appropriate/best open-source LLM (quantized) based on user query.
+* Automatically selects the appropriate/best open-source LLM (quantized) based on type of user-query to provide response.
 * Allows the user to see his query's category and the relevant model along with its details.
 * Setting for adjusting creativity parameter of the responses.
 * In another version, "user_select_chat.py", user can select his category of conversation and also use some tips to compose his message.
