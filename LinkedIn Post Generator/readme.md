@@ -32,7 +32,7 @@ https://github.com/user-attachments/assets/8fc78d20-bf2b-4792-a41f-50ed158f24be
 ## Future scope
 * Due to the large size of the model, even with optimizations like quantization, shorter sequence lengths, and using GPU, generation still takes around 20 sec after initial loading of the mdoel.
 * Faster inference can be achieved by using a techniques like flash attention and parallelism.
-* These techniques demand better hardware which was a constrint on this project.
+* These techniques demand better hardware which was a constraint on this project.
 * In future, more data can be used for training, with these inferencing techniques to obtain even better and faster model.
 
  
