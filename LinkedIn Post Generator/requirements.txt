@@ -1,7 +1,0 @@
-transformers
-gradio
-torch
-peft
-accelerate
-bitsandbytes
-scipy
